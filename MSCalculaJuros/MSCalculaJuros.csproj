@@ -15,4 +15,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationCalculaJuros\ApplicationCalculaJuros.csproj" />
+    <ProjectReference Include="..\EntitiesCalculaJuros\EntitiesCalculaJuros.csproj" />
+  </ItemGroup>
+
 </Project>

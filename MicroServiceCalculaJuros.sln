@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSCalculaJuros", "MSCalculaJuros\MSCalculaJuros.csproj", "{2C7145DA-151E-491D-AF7E-81A07701726B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSCalculaJuros", "MSCalculaJuros\MSCalculaJuros.csproj", "{2C7145DA-151E-491D-AF7E-81A07701726B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCalculaJuros", "ApplicationCalculaJuros\ApplicationCalculaJuros.csproj", "{F0CF85BA-AE5F-499E-B2F6-D9E2A5FF9595}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{91019CC9-BCD8-4B4F-AAC3-237502EF25F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{7FAF73AF-E8A9-4CC5-8158-1BF563122A58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Entities", "3 - Entities", "{4BAF3DFA-76B2-4D17-B628-B9201A97AB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesCalculaJuros", "EntitiesCalculaJuros\EntitiesCalculaJuros.csproj", "{5C98CFF3-76A6-4DB6-B4B8-F0887420554E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{B1F00D42-B798-43F7-8241-35EAB885C3C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitCalculaJuros", "XUnitCalculaJuros\XUnitCalculaJuros.csproj", "{A8E33FA1-AC23-4C20-9827-9E139751F63B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +29,27 @@ Global
 		{2C7145DA-151E-491D-AF7E-81A07701726B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C7145DA-151E-491D-AF7E-81A07701726B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C7145DA-151E-491D-AF7E-81A07701726B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CF85BA-AE5F-499E-B2F6-D9E2A5FF9595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CF85BA-AE5F-499E-B2F6-D9E2A5FF9595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CF85BA-AE5F-499E-B2F6-D9E2A5FF9595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CF85BA-AE5F-499E-B2F6-D9E2A5FF9595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C98CFF3-76A6-4DB6-B4B8-F0887420554E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C98CFF3-76A6-4DB6-B4B8-F0887420554E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C98CFF3-76A6-4DB6-B4B8-F0887420554E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C98CFF3-76A6-4DB6-B4B8-F0887420554E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E33FA1-AC23-4C20-9827-9E139751F63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E33FA1-AC23-4C20-9827-9E139751F63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E33FA1-AC23-4C20-9827-9E139751F63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E33FA1-AC23-4C20-9827-9E139751F63B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C7145DA-151E-491D-AF7E-81A07701726B} = {91019CC9-BCD8-4B4F-AAC3-237502EF25F4}
+		{F0CF85BA-AE5F-499E-B2F6-D9E2A5FF9595} = {7FAF73AF-E8A9-4CC5-8158-1BF563122A58}
+		{5C98CFF3-76A6-4DB6-B4B8-F0887420554E} = {4BAF3DFA-76B2-4D17-B628-B9201A97AB7B}
+		{A8E33FA1-AC23-4C20-9827-9E139751F63B} = {B1F00D42-B798-43F7-8241-35EAB885C3C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8CE874BF-29FA-4541-8F38-960CD0A94488}
