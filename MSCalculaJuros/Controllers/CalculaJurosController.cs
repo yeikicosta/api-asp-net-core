@@ -36,5 +36,17 @@ namespace MSCalculaJuros.Controllers
                 ValorInicial = valorInicial
             });
         }
+
+        /// <summary>
+        /// Url de onde encontra-se o fonte no github
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("showmethecode")]
+        public string UrlGitHub()
+        {
+            return "https://github.com/yeikicosta/softplan.git";
+        }
+
+        
     }
 }
